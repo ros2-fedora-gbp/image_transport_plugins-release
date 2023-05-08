@@ -2,7 +2,7 @@
 Changelog for package theora_image_transport
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.1.0 (2023-05-08)
+3.2.0 (2023-05-08)
 ------------------
 * Deprecated the following parameter names in favor of transport scoped ones. The remapping is listed below:
   * `image.optimize_for` to `image.theora.optimize_for`

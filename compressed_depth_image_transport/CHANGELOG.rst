@@ -2,12 +2,12 @@
 Changelog for package compressed_depth_image_transport
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.1.0 (2023-05-08)
+3.2.0 (2023-05-08)
 ------------------
 * Deprecated the following parameter names in favor of transport scoped ones. The remapping is listed below:
   * `image.png_level` to `image.compressedDepth.png_level`
   * `image.depth_max` to `image.compressedDepth.depth_max`
-  * `image.depth_quantization` to `image.compressedDepth.depth_quantization`
+  * `image.quality` to `image.compressedDepth.depth_quantization`
   The deprecated parameters emit a warning if explicitly set, but this warning will be removed in future distros.
   (`#145 <https://github.com/ros-perception/image_transport_plugins/issues/145>`_)
 * Contributors: Bartosz Meglicki, Kenji Brameld, Marcel Zeilinger
